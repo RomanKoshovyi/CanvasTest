@@ -1,0 +1,102 @@
+html, body{
+    margin: 0%;
+    background: radial-gradient(#d0dbff, #99ceff);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    border: 5px ridge red;
+    border-radius: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px 0px;
+}
+
+form{
+    width: 100%;
+}
+
+.right{
+    width: 30%;
+    text-align: center;
+    border: 5px dotted rgb(37, 114, 1);
+}
+
+#out{
+    font-size: 15px;
+    text-align: justify;
+}
+
+form input{
+    height: 40px;
+    margin: 10px 0px;
+    font-size: 25px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+form input:focus{
+    outline: none;
+}
+
+form button{
+    width: 40%;
+    height: 40px;
+    background-color: rgb(19, 0, 0);
+    color: white;
+    border-radius: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+}
+
+form button:hover{
+    box-shadow: 0 0 10px rgb(0,102,255);
+}
+
+form button:active{
+    background-color: rgb(0,0,209);
+}
+
+.buttonBlock{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0px 0px 10px;
+}
+.info > div{
+    border-bottom: 3px ridge cornflowerblue;
+}
+
+#canvas{
+    border: 5px ridge coral;
+}
+
+#ymax, #ymin{
+    display: block;
+    margin: 0px auto;
+}
+
+.canvaStyle{
+    display: flex;
+    justify-content: center;
+}
+
+#xmax, #xmin{
+    margin: auto 5px;
+}
